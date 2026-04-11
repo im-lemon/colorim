@@ -9,5 +9,4 @@ class Convert:
         r=int(r,16)
         g=int(g,16)
         b=int(b,16)
-        return f"{hex} is {r},{g},{b} in RGB. It looks like this:\n"
-        return Rgb.rgb(r,g,b, text="Hello world")
+        return f"{hex} is {r} ,{g} ,{b} in RGB."

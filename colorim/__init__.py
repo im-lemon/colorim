@@ -3,6 +3,6 @@ from .rgb import Rgb
 from .hex_codes import Hex
 from .hextorgb import Convert
 
-__version__ = "0.2.2"
+__version__ = "0.2.3"
 
 __all__ = ["Hex","Rgb","Color","Convert"]
