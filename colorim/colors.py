@@ -7,7 +7,6 @@ class Color:
     YELLOW_CODE = "\033[0;93m"
     LIGHT_YELLOW_CODE = "\033[1;93m"
     END = "\033[0m"
-    RGB_END = "\x1b[0m"
 
     @classmethod
     def red(cls, text):
@@ -26,7 +25,7 @@ class Color:
 
     @classmethod
     def purple(cls, text):
-        output=cls.PURPLE_CODE+text+cls.RGB_END
+        output=cls.PURPLE_CODE+text+cls.END
         return output
 
     @classmethod
