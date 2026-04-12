@@ -3,6 +3,8 @@ class Color:
     GREEN_CODE = "\033[32;1m"
     BLUE_CODE = "\033[34;1m"
     PURPLE_CODE = "\033[38;2;179;0;254m"
+    CHROME_YELLOW_CODE = "\033[38;255;171;0"
+    DIAMOND_CODE = "\033[38;204;202;251"
     CYAN_CODE = "\033[36;1m"
     YELLOW_CODE = "\033[0;93m"
     LIGHT_YELLOW_CODE = "\033[1;93m"
@@ -41,4 +43,12 @@ class Color:
     @classmethod
     def light_yellow(cls, text):
         output=cls.LIGHT_YELLOW_CODE+text+cls.END
+        return output
+    @classmethod
+    def chrome_yellow(cls, text):
+        output=cls.CHROME_YELLOW_CODE+text+cls.END
+        return output
+    @classmethod
+    def diamond(cls, text):
+        output=cls.DIAMOND_CODE+text+cls.END
         return output

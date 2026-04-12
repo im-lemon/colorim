@@ -16,3 +16,7 @@ Upcoming updates:
 - Gradient (Lolcat) type text.
 - More custom predefined colours.
 - *And more!*
+
+---
+# !! DYNAMICBLOX DID NOT CONTRIBUTE !!
+**IT IS A GLITCH.**
