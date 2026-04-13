@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "colorim"
-version = "0.2.4"
-description = "A library based off Colorama/Rich with extra features like RGB and hex"
+version = "0.2.5"
+description = "A library based off Colorama/Rich with extra features like RGB and hex."
 authors = [
     { name = "im-lemon" }
 ]
