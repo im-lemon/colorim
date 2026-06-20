@@ -10,7 +10,7 @@ Colorim is **inspired by Colorama and Rich**, but Colorim allows for more option
 - And the predefined colours with: ```print(Color.red("hello world"))```
 
 # Upcoming updates:
-- 
+
 - Gradient (Lolcat) type text.
 - More custom predefined colours.
 - *And more!*
